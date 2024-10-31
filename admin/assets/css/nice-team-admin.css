@@ -1,0 +1,9 @@
+/**
+ * Custom CSS rules for Admin only.
+ *
+ * @package Nice_Team
+ * @since   1.0
+ */
+.wp-list-table #thumbnail {
+  width: 60px;
+}

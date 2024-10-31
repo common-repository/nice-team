@@ -1,0 +1,1311 @@
+# Copyright (C) 2015 NiceThemes
+# This file is distributed under the same license as the Nice_Team package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Nice Team by NiceThemes\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/nice-team\n"
+"POT-Creation-Date: 2016-08-08 10:10-0300\n"
+"PO-Revision-Date: 2016-08-08 10:10-0300\n"
+"Last-Translator: NiceThemes <hello@nicethemes.com>\n"
+"Language-Team: NiceThemes <hello@nicethemes.com >\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: admin/action-links.php:37 admin/ui/init.php:32 admin/ui/sections.php:29
+msgid "Settings"
+msgstr "Settings"
+
+#: admin/help-pointers.php:36
+msgid ""
+"Thank you for installing this plugin :) In this page you can set all the "
+"available options to display your team members the way you want."
+msgstr ""
+"Thank you for installing this plugin :) In this page you can set all the "
+"available options to display your team members the way you want."
+
+#: admin/notices.php:94
+#, php-format
+msgid ""
+"You just installed %1$s. Go to %2$sTeam Settings%3$s to configure the plugin "
+"or %4$sdismiss this message%5$s."
+msgstr ""
+"You just installed %1$s. Go to %2$sTeam Settings%3$s to configure the plugin "
+"or %4$sdismiss this message%5$s."
+
+#: admin/post-types/staff-member/metaboxes.php:60 admin/ui/settings.php:49
+msgid "Position"
+msgstr "Position"
+
+#: admin/post-types/staff-member/metaboxes.php:62
+msgid "Enter here the team member's position."
+msgstr "Enter here the team member's position."
+
+#: admin/post-types/staff-member/metaboxes.php:69
+#: admin/templates/widget-team-members-form.php:96 admin/ui/settings.php:51
+msgid "Website"
+msgstr "Website"
+
+#: admin/post-types/staff-member/metaboxes.php:71
+msgid "Link to the team member's website."
+msgstr "Link to the team member's website."
+
+#: admin/post-types/staff-member/metaboxes.php:78
+#: admin/templates/widget-team-members-form.php:100 admin/ui/settings.php:52
+msgid "Email"
+msgstr "Email"
+
+#: admin/post-types/staff-member/metaboxes.php:80
+msgid "Enter here the team member's email."
+msgstr "Enter here the team member's email."
+
+#: admin/post-types/staff-member/metaboxes.php:87
+msgid "Gravatar Email"
+msgstr "Gravatar Email"
+
+#: admin/post-types/staff-member/metaboxes.php:89
+msgid ""
+"Email address to show the team member's avatar from Gravatar. This setting "
+"will not be used if you entered a custom team member's image."
+msgstr ""
+"Email address to show the team member's avatar from Gravatar. This setting "
+"will not be used if you entered a custom team member's image."
+
+#: admin/post-types/staff-member/metaboxes.php:96
+#: admin/templates/widget-team-members-form.php:104
+msgid "Twitter"
+msgstr "Twitter"
+
+#: admin/post-types/staff-member/metaboxes.php:98
+msgid "Enter the team member's Twitter username (without @)."
+msgstr "Enter the team member's Twitter username (without @)."
+
+#: admin/post-types/staff-member/metaboxes.php:105
+#: admin/templates/widget-team-members-form.php:108
+msgid "Facebook"
+msgstr "Facebook"
+
+#: admin/post-types/staff-member/metaboxes.php:107
+msgid "Enter the team member's Facebook URL."
+msgstr "Enter the team member's Facebook URL."
+
+#: admin/post-types/staff-member/metaboxes.php:114
+#: admin/templates/widget-team-members-form.php:112
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: admin/post-types/staff-member/metaboxes.php:116
+msgid "Enter the team member's LinkedIn URL."
+msgstr "Enter the team member's LinkedIn URL."
+
+#: admin/post-types/staff-member/metaboxes.php:124
+msgid "User Name"
+msgstr "User Name"
+
+#: admin/post-types/staff-member/metaboxes.php:126
+msgid ""
+"The name of the user associated to this team member. If present, the "
+"member's description will be retrieved from the user's profile. Also, if you "
+"have not entered a custom image or a Gravatar Email, the featured image will "
+"be used as the member's image."
+msgstr ""
+"The name of the user associated to this team member. If present, the "
+"member's description will be retrieved from the user's profile. Also, if you "
+"have not entered a custom image or a Gravatar Email, the featured image will "
+"be used as the member's image."
+
+#: admin/post-types/staff-member/metaboxes.php:150
+msgid "Team Member Details"
+msgstr "Team Member Details"
+
+#: admin/post-types/staff-member/metaboxes.php:181
+msgid "Enter the name of the team member here"
+msgstr "Enter the name of the team member here"
+
+#: admin/post-types/staff-member/metaboxes.php:198
+msgid "Team member's image"
+msgstr "Team member's image"
+
+#: admin/post-types/staff-member/metaboxes.php:227
+msgid "Set featured image"
+msgstr "Set featured image"
+
+#: admin/post-types/staff-member/metaboxes.php:228
+msgid "Set team member's image"
+msgstr "Set team member's image"
+
+#: admin/post-types/staff-member/metaboxes.php:233
+msgid "Remove featured image"
+msgstr "Remove featured image"
+
+#: admin/post-types/staff-member/metaboxes.php:234
+msgid "Remove team member's image"
+msgstr "Remove team member's image"
+
+#: admin/post-types/staff-member/metaboxes.php:275
+#: admin/post-types/staff-member/metaboxes.php:276
+msgid "Set Team Member's Image"
+msgstr "Set Team Member's Image"
+
+#: admin/post-types/staff-member/post-type.php:81
+#, php-format
+msgid "Team member updated. <a href=\"%s\">View team member</a>"
+msgstr "Team member updated. <a href=\"%s\">View team member</a>"
+
+#: admin/post-types/staff-member/post-type.php:84
+msgid "Custom field updated."
+msgstr "Custom field updated."
+
+#: admin/post-types/staff-member/post-type.php:85
+msgid "Custom field deleted."
+msgstr "Custom field deleted."
+
+#: admin/post-types/staff-member/post-type.php:86
+msgid "Team member updated."
+msgstr "Team member updated."
+
+#: admin/post-types/staff-member/post-type.php:88
+#, php-format
+msgid "Team member restored to revision from %s"
+msgstr "Team member restored to revision from %s"
+
+#: admin/post-types/staff-member/post-type.php:90
+#, php-format
+msgid "Team member published. <a href=\"%s\">View team member</a>"
+msgstr "Team member published. <a href=\"%s\">View team member</a>"
+
+#: admin/post-types/staff-member/post-type.php:93
+msgid "Team member saved."
+msgstr "Team member saved."
+
+#: admin/post-types/staff-member/post-type.php:95
+#, php-format
+msgid ""
+"Team member submitted. <a target=\"_blank\" href=\"%s\">Preview team member</"
+"a>"
+msgstr ""
+"Team member submitted. <a target=\"_blank\" href=\"%s\">Preview team member</"
+"a>"
+
+#: admin/post-types/staff-member/post-type.php:99
+#, php-format
+msgid ""
+"Team member scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview team member</a>"
+msgstr ""
+"Team member scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview team member</a>"
+
+#: admin/post-types/staff-member/post-type.php:101
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: admin/post-types/staff-member/post-type.php:103
+#, php-format
+msgid ""
+"Team member draft updated. <a target=\"_blank\" href=\"%s\">Preview team "
+"member</a>"
+msgstr ""
+"Team member draft updated. <a target=\"_blank\" href=\"%s\">Preview team "
+"member</a>"
+
+#: admin/templates/widget-team-members-form.php:25
+msgid "Widget Title (optional)"
+msgstr "Widget Title (optional)"
+
+#: admin/templates/widget-team-members-form.php:29
+msgid "Number of Team Members to Show"
+msgstr "Number of Team Members to Show"
+
+#: admin/templates/widget-team-members-form.php:33
+msgid "Thumbnail Size:"
+msgstr "Thumbnail Size:"
+
+#: admin/templates/widget-team-members-form.php:34 admin/ui/settings.php:213
+msgid "Width:"
+msgstr "Width:"
+
+#: admin/templates/widget-team-members-form.php:36 admin/ui/settings.php:215
+msgid "Height:"
+msgstr "Height:"
+
+#: admin/templates/widget-team-members-form.php:40
+msgid "Order Team By"
+msgstr "Order Team By"
+
+#: admin/templates/widget-team-members-form.php:42
+#: admin/templates/widget-team-members-form.php:59 admin/ui/settings.php:71
+#: admin/ui/settings.php:83
+msgid "Select an option"
+msgstr "Select an option"
+
+#: admin/templates/widget-team-members-form.php:44
+msgid "Specified Order Setting"
+msgstr "Specified Order Setting"
+
+#: admin/templates/widget-team-members-form.php:45 admin/ui/settings.php:65
+msgid "Team Member ID"
+msgstr "Team Member ID"
+
+#: admin/templates/widget-team-members-form.php:46 admin/ui/settings.php:66
+msgid "Title"
+msgstr "Title"
+
+#: admin/templates/widget-team-members-form.php:47 admin/ui/settings.php:67
+msgid "Menu Order"
+msgstr "Menu Order"
+
+#: admin/templates/widget-team-members-form.php:48 admin/ui/settings.php:68
+msgid "Date"
+msgstr "Date"
+
+#: admin/templates/widget-team-members-form.php:49 admin/ui/settings.php:69
+msgid "Random Order"
+msgstr "Random Order"
+
+#: admin/templates/widget-team-members-form.php:57
+msgid "Sort Team By"
+msgstr "Sort Team By"
+
+#: admin/templates/widget-team-members-form.php:61
+msgid "Specified Sort Setting"
+msgstr "Specified Sort Setting"
+
+#: admin/templates/widget-team-members-form.php:62 admin/ui/settings.php:80
+msgid "Ascending Order"
+msgstr "Ascending Order"
+
+#: admin/templates/widget-team-members-form.php:63 admin/ui/settings.php:81
+msgid "Descending Order"
+msgstr "Descending Order"
+
+#: admin/templates/widget-team-members-form.php:73
+msgid "Display Fields"
+msgstr "Display Fields"
+
+#: admin/templates/widget-team-members-form.php:76
+msgid "Use specified field settings"
+msgstr "Use specified field settings"
+
+#: admin/templates/widget-team-members-form.php:79
+msgid "Use custom settings"
+msgstr "Use custom settings"
+
+#: admin/templates/widget-team-members-form.php:84
+msgid "Display These Fields:"
+msgstr "Display These Fields:"
+
+#: admin/templates/widget-team-members-form.php:88
+msgid "Team Member Position"
+msgstr "Team Member Position"
+
+#: admin/templates/widget-team-members-form.php:92 admin/ui/settings.php:50
+#: lib/custom-post-type/post-type-admin/display/class-post-type-admin-display-responder.php:69
+msgid "Image"
+msgstr "Image"
+
+#: admin/templates/widget-team-members-form.php:116
+msgid "Category"
+msgstr "Category"
+
+#: admin/templates/widget-team-members-form.php:123
+msgid "All Categories"
+msgstr "All Categories"
+
+#: admin/templates/widget-team-members-form.php:129 admin/ui/settings.php:88
+msgid "Include Children Categories"
+msgstr "Include Children Categories"
+
+#: admin/templates/widget-team-members-form.php:132
+msgid "Specific ID (optional)"
+msgstr "Specific ID (optional)"
+
+#: admin/templates/widget-team-members-form.php:134
+msgid "Display a specific team member instead of a list."
+msgstr "Display a specific team member instead of a list."
+
+#: admin/ui/footer-links.php:30
+msgid "Themes"
+msgstr "Themes"
+
+#: admin/ui/footer-links.php:36
+msgid "Plugins"
+msgstr "Plugins"
+
+#: admin/ui/footer-links.php:42 admin/ui/help-tabs.php:50
+#: admin/ui/templates/help-tab-help.php:15
+msgid "Help & Support"
+msgstr "Help & Support"
+
+#: admin/ui/footer-links.php:48 admin/ui/templates/help-sidebar.php:20
+msgid "Rate this plugin"
+msgstr "Rate this plugin"
+
+#: admin/ui/help-tabs.php:40 admin/ui/settings-groups.php:29
+#: admin/ui/templates/help-tab-general.php:16
+msgid "General Settings"
+msgstr "General Settings"
+
+#: admin/ui/help-tabs.php:45 admin/ui/settings-groups.php:43
+#: admin/ui/templates/help-tab-advanced.php:16
+msgid "Advanced Settings"
+msgstr "Advanced Settings"
+
+#: admin/ui/help-tabs.php:55
+msgid "Compatible Themes"
+msgstr "Compatible Themes"
+
+#: admin/ui/sections.php:30
+msgid "Nice Team Settings"
+msgstr "Nice Team Settings"
+
+#: admin/ui/sections.php:32
+msgid ""
+"Welcome to the Settings Panel. Here you can set up and configure all of the "
+"different options for this magnificent plugin."
+msgstr ""
+"Welcome to the Settings Panel. Here you can set up and configure all of the "
+"different options for this magnificent plugin."
+
+#: admin/ui/sections.php:36
+msgid "About"
+msgstr "About"
+
+#: admin/ui/sections.php:37
+msgid "About Nice Team"
+msgstr "About Nice Team"
+
+#: admin/ui/settings-groups.php:30
+msgid ""
+"Configure how your team members will be displayed by default. All these "
+"options can be overridden in a shortcode basis."
+msgstr ""
+"Configure how your team members will be displayed by default. All these "
+"options can be overridden in a shortcode basis."
+
+#: admin/ui/settings-groups.php:36
+msgid "Images Settings"
+msgstr "Images Settings"
+
+#: admin/ui/settings-groups.php:37
+msgid ""
+"Here you can set the sizes for your project images. Once you change these "
+"settings, you may need to <a href=\"http://wordpress.org/extend/plugins/"
+"regenerate-thumbnails/\" target=\"_blank\">regenerate your thumbnails</a>."
+msgstr ""
+"Here you can set the sizes for your project images. Once you change these "
+"settings, you may need to <a href=\"http://wordpress.org/extend/plugins/"
+"regenerate-thumbnails/\" target=\"_blank\">regenerate your thumbnails</a>."
+
+#: admin/ui/settings-groups.php:44
+msgid ""
+"Options presented here are for advanced users only, so you must use them "
+"carefully."
+msgstr ""
+"Options presented here are for advanced users only, so you must use them "
+"carefully."
+
+#: admin/ui/settings.php:31
+msgid "Number of Team"
+msgstr "Number of Team"
+
+#: admin/ui/settings.php:32
+msgid ""
+"The number of members to be displayed. A value of 0 (zero) means no team "
+"members will display. Use -1 (minus one) to display unlimited team members."
+msgstr ""
+"The number of members to be displayed. A value of 0 (zero) means no team "
+"members will display. Use -1 (minus one) to display unlimited team members."
+
+#: admin/ui/settings.php:32 admin/ui/settings.php:39 admin/ui/settings.php:62
+#: admin/ui/settings.php:77
+#, php-format
+msgid "You can override this setting in shortcodes using the %s property."
+msgstr "You can override this setting in shortcodes using the %s property."
+
+#: admin/ui/settings.php:38
+msgid "Number of Columns"
+msgstr "Number of Columns"
+
+#: admin/ui/settings.php:39
+msgid "The number of columns to display the team members in."
+msgstr "The number of columns to display the team members in."
+
+#: admin/ui/settings.php:45
+msgid "Visible Data"
+msgstr "Visible Data"
+
+#: admin/ui/settings.php:46
+msgid "Check which fields should be displayed for a team member."
+msgstr "Check which fields should be displayed for a team member."
+
+#: admin/ui/settings.php:53
+msgid "Twitter Profile"
+msgstr "Twitter Profile"
+
+#: admin/ui/settings.php:54
+msgid "Facebook Profile"
+msgstr "Facebook Profile"
+
+#: admin/ui/settings.php:55
+msgid "LinkedIn Profile"
+msgstr "LinkedIn Profile"
+
+#: admin/ui/settings.php:61
+msgid "Order items by"
+msgstr "Order items by"
+
+#: admin/ui/settings.php:76
+msgid "Sort items by"
+msgstr "Sort items by"
+
+#: admin/ui/settings.php:89
+msgid "Show children of parent categories."
+msgstr "Show children of parent categories."
+
+#: admin/ui/settings.php:95
+msgid "Avoid Plugin CSS"
+msgstr "Avoid Plugin CSS"
+
+#: admin/ui/settings.php:96
+msgid "Apply styles to team elements using your own CSS."
+msgstr "Apply styles to team elements using your own CSS."
+
+#: admin/ui/settings.php:106
+msgid "Archive Images"
+msgstr "Archive Images"
+
+#: admin/ui/settings.php:107
+msgid "Size of your member images in lists of projects."
+msgstr "Size of your member images in lists of projects."
+
+#: admin/ui/settings.php:113
+msgid "Single Images"
+msgstr "Single Images"
+
+#: admin/ui/settings.php:114
+msgid "Size of member image in member pages."
+msgstr "Size of member image in member pages."
+
+#: admin/ui/settings.php:124
+msgid "Team Member Slug"
+msgstr "Team Member Slug"
+
+#: admin/ui/settings.php:125
+#, php-format
+msgid ""
+"Base name for permalinks to single pages for theme members. &mdash; i.e.: %s/"
+"team-member-slug/."
+msgstr ""
+"Base name for permalinks to single pages for theme members. &mdash; i.e.: %s/"
+"team-member-slug/."
+
+#: admin/ui/settings.php:131
+msgid "Team Slug"
+msgstr "Team Slug"
+
+#: admin/ui/settings.php:132
+#, php-format
+msgid "Base name for permalinks to team indexes. &mdash; i.e.: %s/team-slug/."
+msgstr "Base name for permalinks to team indexes. &mdash; i.e.: %s/team-slug/."
+
+#: admin/ui/settings.php:138
+msgid "Hierarchical Team Permalinks"
+msgstr "Hierarchical Team Permalinks"
+
+#: admin/ui/settings.php:139
+msgid "Add parent slugs to show hierarchy in team permalinks."
+msgstr "Add parent slugs to show hierarchy in team permalinks."
+
+#: admin/ui/settings.php:145
+msgid "Custom Permalink Front"
+msgstr "Custom Permalink Front"
+
+#: admin/ui/settings.php:146
+msgid ""
+"Add the front part of a custom permalink structure (if being used) to single "
+"team member and team index permalinks"
+msgstr ""
+"Add the front part of a custom permalink structure (if being used) to single "
+"team member and team index permalinks"
+
+#: admin/ui/settings.php:152
+msgid "Remove Data On Deactivation"
+msgstr "Remove Data On Deactivation"
+
+#: admin/ui/settings.php:153
+msgid "Delete all plugin settings once you deactivate it."
+msgstr "Delete all plugin settings once you deactivate it."
+
+#: admin/ui/settings.php:217
+msgid "Crop:"
+msgstr "Crop:"
+
+#: admin/ui/sidebar-boxes.php:34
+msgid "Subscribe to our Newsletter"
+msgstr "Subscribe to our Newsletter"
+
+#: admin/ui/sidebar-boxes.php:38
+msgid "Need help with this plugin?"
+msgstr "Need help with this plugin?"
+
+#: admin/ui/sidebar-boxes.php:42
+msgid "Like this plugin?"
+msgstr "Like this plugin?"
+
+#: admin/ui/sidebar-boxes.php:46
+msgid "Join us on"
+msgstr "Join us on"
+
+#: admin/ui/tabs.php:32
+msgid "General"
+msgstr "General"
+
+#: admin/ui/tabs.php:42
+msgid "Images"
+msgstr "Images"
+
+#: admin/ui/tabs.php:52
+msgid "Advanced"
+msgstr "Advanced"
+
+#: admin/ui/templates/about-heading.php:18
+msgid ""
+"A great and powerful plugin to show information about your team members."
+msgstr ""
+"A great and powerful plugin to show information about your team members."
+
+#: admin/ui/templates/help-sidebar.php:16
+msgid "For more information:"
+msgstr "For more information:"
+
+#: admin/ui/templates/help-sidebar.php:17
+msgid "WordPress.org Plugin"
+msgstr "WordPress.org Plugin"
+
+#: admin/ui/templates/help-sidebar.php:18
+msgid "Github Project"
+msgstr "Github Project"
+
+#: admin/ui/templates/help-sidebar.php:19
+#: admin/ui/templates/help-tab-themes.php:15
+msgid "Official Themes"
+msgstr "Official Themes"
+
+#: admin/ui/templates/help-tab-advanced.php:18
+msgid ""
+"This screen provides settings for advanced users, such as removing all the "
+"configurations for this plugin when you deactivate it."
+msgstr ""
+"This screen provides settings for advanced users, such as removing all the "
+"configurations for this plugin when you deactivate it."
+
+#: admin/ui/templates/help-tab-advanced.php:20
+#, php-format
+msgid ""
+"If you need further support, please consider checking the %sdocumentation%s "
+"or %sreporting a bug%s."
+msgstr ""
+"If you need further support, please consider checking the %sdocumentation%s "
+"or %sreporting a bug%s."
+
+#: admin/ui/templates/help-tab-general.php:18
+msgid ""
+"Configure how your team members will be displayed by default. The options "
+"presented here can be overridden in a shortcode basis. You can set the "
+"number of team members to display by default, change the size of the images, "
+"select the information you want to show, etc."
+msgstr ""
+"Configure how your team members will be displayed by default. The options "
+"presented here can be overridden in a shortcode basis. You can set the "
+"number of team members to display by default, change the size of the images, "
+"select the information you want to show, etc."
+
+#: admin/ui/templates/help-tab-general.php:20
+#, php-format
+msgid ""
+"This screen provides the most basic settings for configuring the plugin. If "
+"you need further support, please consider checking the %sdocumentation%s or "
+"%sreporting a bug%s."
+msgstr ""
+"This screen provides the most basic settings for configuring the plugin. If "
+"you need further support, please consider checking the %sdocumentation%s or "
+"%sreporting a bug%s."
+
+#: admin/ui/templates/help-tab-help.php:17
+#, php-format
+msgid ""
+"Before asking for help we recommend checking the %splugin documentation%s to "
+"identify any problems with your configuration."
+msgstr ""
+"Before asking for help we recommend checking the %splugin documentation%s to "
+"identify any problems with your configuration."
+
+#: admin/ui/templates/help-tab-help.php:19
+#, php-format
+msgid ""
+"After reading the documentation, for further assistance you can use our "
+"%scommunity forum%s."
+msgstr ""
+"After reading the documentation, for further assistance you can use our "
+"%scommunity forum%s."
+
+#: admin/ui/templates/help-tab-help.php:21
+msgid "Found a bug?"
+msgstr "Found a bug?"
+
+#: admin/ui/templates/help-tab-help.php:23
+msgid ""
+"If you find a bug within this plugin, you can either report it in our forum "
+"or create a ticket via GitHub issues. Be as descriptive as possible and "
+"please tell us how to reproduce the issue step by step."
+msgstr ""
+"If you find a bug within this plugin, you can either report it in our forum "
+"or create a ticket via GitHub issues. Be as descriptive as possible and "
+"please tell us how to reproduce the issue step by step."
+
+#: admin/ui/templates/help-tab-help.php:25
+msgid "Report bug in GitHub"
+msgstr "Report bug in GitHub"
+
+#: admin/ui/templates/help-tab-help.php:25
+msgid "Report bug in forum"
+msgstr "Report bug in forum"
+
+#: admin/ui/templates/help-tab-themes.php:17
+msgid ""
+"We create wonderful WordPress Plugins and Themes. Some of them are "
+"distributed for free, like this one. If you like this plugin, please "
+"consider checking our paid products."
+msgstr ""
+"We create wonderful WordPress Plugins and Themes. Some of them are "
+"distributed for free, like this one. If you like this plugin, please "
+"consider checking our paid products."
+
+#: admin/ui/templates/help-tab-themes.php:19
+msgid "Check the official Themes"
+msgstr "Check the official Themes"
+
+#: admin/ui/templates/widget-help.php:16
+msgid ""
+"We have some documentation for you to start taking the most out of this "
+"wonderful WordPress plugin."
+msgstr ""
+"We have some documentation for you to start taking the most out of this "
+"wonderful WordPress plugin."
+
+#: admin/ui/templates/widget-help.php:17
+msgid "Read plugin documentation"
+msgstr "Read plugin documentation"
+
+#: admin/ui/templates/widget-newsletter.php:16
+msgid ""
+"If you would like to keep up to date regarding Nice Team and other plugins "
+"by NiceThemes, subscribe to the newsletter:"
+msgstr ""
+"If you would like to keep up to date regarding Nice Team and other plugins "
+"by NiceThemes, subscribe to the newsletter:"
+
+#: admin/ui/templates/widget-newsletter.php:35
+msgid "Email Address"
+msgstr "Email Address"
+
+#: admin/ui/templates/widget-newsletter.php:45
+msgid "Get me in!"
+msgstr "Get me in!"
+
+#: admin/ui/templates/widget-rate-plugin.php:16
+msgid ""
+"If you like this plugin, please rate it 5 stars on WordPress.org and "
+"consider checking our paid products."
+msgstr ""
+"If you like this plugin, please rate it 5 stars on WordPress.org and "
+"consider checking our paid products."
+
+#: admin/ui/templates/widget-rate-plugin.php:18
+msgid "See our official themes"
+msgstr "See our official themes"
+
+#: admin/ui/templates/widget-rate-plugin.php:19
+msgid "Check other plugins by NiceThemes"
+msgstr "Check other plugins by NiceThemes"
+
+#: compatibility/themes/twentyeleven.php:60
+#: compatibility/themes/twentyeleven.php:79
+#: compatibility/themes/twentyfourteen.php:82
+#: compatibility/themes/twentythirteen.php:60
+msgid "Member navigation"
+msgstr "Member navigation"
+
+#: compatibility/themes/twentyeleven.php:61
+msgid "<span class=\"meta-nav\">&larr;</span> Older members"
+msgstr "<span class=\"meta-nav\">&larr;</span> Older members"
+
+#: compatibility/themes/twentyeleven.php:62
+msgid "Newer members <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Newer members <span class=\"meta-nav\">&rarr;</span>"
+
+#: compatibility/themes/twentyeleven.php:80
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Previous"
+
+#: compatibility/themes/twentyeleven.php:81
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Next <span class=\"meta-nav\">&rarr;</span>"
+
+#: compatibility/themes/twentyfifteen.php:59
+#: compatibility/themes/twentysixteen.php:81
+msgid "Previous page"
+msgstr "Previous page"
+
+#: compatibility/themes/twentyfifteen.php:60
+#: compatibility/themes/twentysixteen.php:82
+msgid "Next page"
+msgstr "Next page"
+
+#: compatibility/themes/twentyfifteen.php:61
+#: compatibility/themes/twentysixteen.php:83
+msgid "Page"
+msgstr "Page"
+
+#: compatibility/themes/twentyfifteen.php:78
+#: compatibility/themes/twentysixteen.php:100
+msgid "Next"
+msgstr "Next"
+
+#: compatibility/themes/twentyfifteen.php:79
+#: compatibility/themes/twentysixteen.php:101
+msgid "Next member:"
+msgstr "Next member:"
+
+#: compatibility/themes/twentyfifteen.php:81
+#: compatibility/themes/twentysixteen.php:103
+msgid "Previous"
+msgstr "Previous"
+
+#: compatibility/themes/twentyfifteen.php:82
+#: compatibility/themes/twentysixteen.php:104
+msgid "Previous member:"
+msgstr "Previous member:"
+
+#: compatibility/themes/twentyfourteen.php:87
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr "<span class=\"meta-nav\">Published In</span>%title"
+
+#: compatibility/themes/twentyfourteen.php:89
+msgid "<span class=\"meta-nav\">Previous Member</span>%title"
+msgstr "<span class=\"meta-nav\">Previous Member</span>%title"
+
+#: compatibility/themes/twentyfourteen.php:90
+msgid "<span class=\"meta-nav\">Next Member</span>%title"
+msgstr "<span class=\"meta-nav\">Next Member</span>%title"
+
+#: compatibility/themes/twentyten.php:36
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Older posts"
+
+#: compatibility/themes/twentyten.php:37
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+
+#: compatibility/themes/twentyten.php:54
+#: compatibility/themes/twentytwelve.php:86
+msgctxt "Previous member link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: compatibility/themes/twentyten.php:55
+#: compatibility/themes/twentytwelve.php:87
+msgctxt "Next member link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: compatibility/themes/twentythirteen.php:63
+msgctxt "Previous member link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: compatibility/themes/twentythirteen.php:64
+msgctxt "Next member link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: compatibility/themes/twentytwelve.php:85
+#: templates/loop/members-page-navigation.php:19
+msgid "Members navigation"
+msgstr "Members navigation"
+
+# Plugin name
+#: includes/i18n.php:26
+msgid "Nice Team"
+msgstr "Nice Team"
+
+#: includes/i18n.php:27
+msgid "Nice Team By NiceThemes"
+msgstr "Nice Team By NiceThemes"
+
+# Plugin description
+#: includes/i18n.php:28
+msgid "A great plugin to display team member profiles on your WordPress site."
+msgstr "A great plugin to display team member profiles on your WordPress site."
+
+#: includes/post-types/team-member/category.php:36
+#: includes/post-types/team-member/category.php:38
+msgid "Teams"
+msgstr "Teams"
+
+#: includes/post-types/team-member/category.php:37
+#: includes/post-types/team-member/category.php:39
+#: includes/post-types/team-member/post-type.php:35
+#: includes/post-types/team-member/post-type.php:36
+msgid "Team"
+msgstr "Team"
+
+#: includes/post-types/team-member/category.php:40
+msgid "Search Teams"
+msgstr "Search Teams"
+
+#: includes/post-types/team-member/category.php:41
+msgid "Popular Teams"
+msgstr "Popular Teams"
+
+#: includes/post-types/team-member/category.php:42
+msgid "All Teams"
+msgstr "All Teams"
+
+#: includes/post-types/team-member/category.php:43
+msgid "Edit Team"
+msgstr "Edit Team"
+
+#: includes/post-types/team-member/category.php:44
+msgid "View Team"
+msgstr "View Team"
+
+#: includes/post-types/team-member/category.php:45
+msgid "Update Team"
+msgstr "Update Team"
+
+#: includes/post-types/team-member/category.php:46
+msgid "Add New Team"
+msgstr "Add New Team"
+
+#: includes/post-types/team-member/category.php:47
+msgid "New Team Name"
+msgstr "New Team Name"
+
+#: includes/post-types/team-member/category.php:48
+msgid "Parent Team"
+msgstr "Parent Team"
+
+#: includes/post-types/team-member/category.php:49
+msgid "Parent Team:"
+msgstr "Parent Team:"
+
+#: includes/post-types/team-member/post-type.php:33
+msgid "Team Members"
+msgstr "Team Members"
+
+#: includes/post-types/team-member/post-type.php:34
+msgid "Team Member"
+msgstr "Team Member"
+
+#: includes/post-types/team-member/post-type.php:37
+msgid "Add New"
+msgstr "Add New"
+
+#: includes/post-types/team-member/post-type.php:38
+msgid "Add New Team Member"
+msgstr "Add New Team Member"
+
+#: includes/post-types/team-member/post-type.php:39
+msgid "Edit Team Member"
+msgstr "Edit Team Member"
+
+#: includes/post-types/team-member/post-type.php:40
+msgid "New Team Member"
+msgstr "New Team Member"
+
+#: includes/post-types/team-member/post-type.php:41
+msgid "View Team Member"
+msgstr "View Team Member"
+
+#: includes/post-types/team-member/post-type.php:42
+msgid "Search Team Member"
+msgstr "Search Team Member"
+
+#: includes/post-types/team-member/post-type.php:43
+msgid "No team member found"
+msgstr "No team member found"
+
+#: includes/post-types/team-member/post-type.php:44
+msgid "No team member found in trash"
+msgstr "No team member found in trash"
+
+#: includes/post-types/team-member/post-type.php:45
+msgid "All Team Members"
+msgstr "All Team Members"
+
+#: includes/widgets/class-widget-team-members.php:78
+msgid "(NiceThemes) Team Members"
+msgstr "(NiceThemes) Team Members"
+
+#: includes/widgets/class-widget-team-members.php:86
+msgid "A widget that displays your team members."
+msgstr "A widget that displays your team members."
+
+#: lib/admin-ui/display/class-admin-ui-display-responder.php:179
+msgid "Use This File"
+msgstr "Use This File"
+
+#: lib/admin-ui/display/class-admin-ui-display-responder.php:181
+msgid "Remove"
+msgstr "Remove"
+
+#: lib/admin-ui/display/class-admin-ui-display-responder.php:370
+msgid "Upload file"
+msgstr "Upload file"
+
+#: lib/admin-ui/includes/class-admin-ui-html-handler.php:176
+msgid "Search"
+msgstr "Search"
+
+#: lib/custom-post-type/glancer/domain/class-glancer-service.php:71
+msgid ""
+"Trying to add At a Glance items to dashboard widget after hook already fired"
+msgstr ""
+"Trying to add At a Glance items to dashboard widget after hook already fired"
+
+#: lib/custom-post-type/metabox/create/class-metabox-create-responder.php:101
+#, php-format
+msgid "%s Settings"
+msgstr "%s Settings"
+
+#: lib/custom-post-type/metabox/includes/class-metabox-html-handler.php:242
+#, php-format
+msgid ""
+"%s method is not implemented yet. Please use another method to display an "
+"option for %s"
+msgstr ""
+"%s method is not implemented yet. Please use another method to display an "
+"option for %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:109
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:110
+#, php-format
+msgid "Add %s"
+msgstr "Add %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:111
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:183
+#, php-format
+msgid "Edit %s"
+msgstr "Edit %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:112
+#, php-format
+msgid "New %s"
+msgstr "New %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:113
+#, php-format
+msgid "View %s"
+msgstr "View %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:114
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:190
+#, php-format
+msgid "Search %s"
+msgstr "Search %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:115
+#, php-format
+msgid "No %s found"
+msgstr "No %s found"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:116
+#, php-format
+msgid "No %s in the trash"
+msgstr "No %s in the trash"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:184
+#, php-format
+msgid "Update %s"
+msgstr "Update %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:185
+#, php-format
+msgid "Add New %s"
+msgstr "Add New %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:186
+#, php-format
+msgid "New %s Name"
+msgstr "New %s Name"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:187
+#, php-format
+msgid "Parent %s"
+msgstr "Parent %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:188
+#, php-format
+msgid "Parent %s:"
+msgstr "Parent %s:"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:189
+#, php-format
+msgid "All %s"
+msgstr "All %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:191
+#, php-format
+msgid "Popular %s"
+msgstr "Popular %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:192
+#, php-format
+msgid "Separate %s with commas"
+msgstr "Separate %s with commas"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:193
+#, php-format
+msgid "Add or remove %s"
+msgstr "Add or remove %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:194
+#, php-format
+msgid "Choose from the most used %s"
+msgstr "Choose from the most used %s"
+
+#: lib/custom-post-type/post-type/domain/class-post-type-service.php:195
+#, php-format
+msgid "No %s found."
+msgstr "No %s found."
+
+#: lib/nice-adr/src/functions.php:237
+#, php-format
+msgid "%s action does not exist. You need to create it in order to proceed."
+msgstr "%s action does not exist. You need to create it in order to proceed."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:69
+#, php-format
+msgid ""
+"%1$s requires WordPress %2$s or higher, and has been deactivated. Please "
+"upgrade WordPress and try again."
+msgstr ""
+"%1$s requires WordPress %2$s or higher, and has been deactivated. Please "
+"upgrade WordPress and try again."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:71
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:78
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:85
+#, php-format
+msgid "Back to %1$sWordPress Dashboard%2$s."
+msgstr "Back to %1$sWordPress Dashboard%2$s."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:76
+#, php-format
+msgid ""
+"%1$s requires PHP %2$s or higher, and has been deactivated. Please contact "
+"your hosting provider about this issue."
+msgstr ""
+"%1$s requires PHP %2$s or higher, and has been deactivated. Please contact "
+"your hosting provider about this issue."
+
+#: lib/plugin-api/admin/create/class-admin-create-responder.php:83
+#, php-format
+msgid ""
+"%s requires GD Library for PHP, which is not installed on your server. "
+"Please contact your hosting provider about this issue."
+msgstr ""
+"%s requires GD Library for PHP, which is not installed on your server. "
+"Please contact your hosting provider about this issue."
+
+#: lib/plugin-api/admin/functions.php:76
+msgid ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_team_plugin_admin_after_init in order to prevent recursion."
+msgstr ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_team_plugin_admin_after_init in order to prevent recursion."
+
+#: lib/plugin-api/functions.php:239
+#, php-format
+msgid "(This message was added in %s version %s.)"
+msgstr "(This message was added in %s version %s.)"
+
+#: lib/plugin-api/functions.php:240
+#, php-format
+msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
+msgstr "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
+
+#: lib/plugin-api/plugin/functions.php:70
+msgid ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_team_plugin_after_init in order to prevent recursion."
+msgstr ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_team_plugin_after_init in order to prevent recursion."
+
+#: lib/plugin-api/public/functions.php:67
+msgid ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_team_plugin_public_after_init in order to prevent recursion."
+msgstr ""
+"This function should not be called more than once. Please hook your actions "
+"to nice_team_plugin_public_after_init in order to prevent recursion."
+
+#: public/class-team-member.php:118
+#, php-format
+msgid "The WP_Post object passed to %s class must belong of the %s post type"
+msgstr "The WP_Post object passed to %s class must belong of the %s post type"
+
+#: public/class-team.php:111
+msgid "You need to create at least one instance before trying to obtain one."
+msgstr "You need to create at least one instance before trying to obtain one."
+
+#: public/template-functions.php:978
+msgid "Members Archive"
+msgstr "Members Archive"
+
+#: templates/loop/empty/empty.php:19
+msgid "Sorry, it seems there is nothing to see here."
+msgstr "Sorry, it seems there is nothing to see here."
+
+#: templates/loop/member/posts.php:25 templates/single-member/posts.php:25
+#: templates/widgets/team-member/posts.php:25
+#, php-format
+msgid "See all posts by %s"
+msgstr "See all posts by %s"
+
+#~ msgid ""
+#~ "<code>%s</code> method is not implemented yet. Please use another method "
+#~ "to display an option for <code>%s</code>"
+#~ msgstr ""
+#~ "<code>%s</code> method is not implemented yet. Please use another method "
+#~ "to display an option for <code>%s</code>"
+
+#~ msgid ""
+#~ "You just installed %1$s. Go to %2$sNice Team Settings%3$s to configure "
+#~ "the plugin or %4$sdismiss this message%5$s."
+#~ msgstr ""
+#~ "You just installed %1$s. Go to %2$sNice Team Settings%3$s to configure "
+#~ "the plugin or %4$sdismiss this message%5$s."
+
+#~ msgid "Base name for permalinks to team members single pages."
+#~ msgstr "Base name for permalinks to team members single pages."
+
+#~ msgid ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_admin_after_init in order to prevent recursion."
+#~ msgstr ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_admin_after_init in order to prevent recursion."
+
+#~ msgid ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_after_init in order to prevent recursion."
+#~ msgstr ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_after_init in order to prevent recursion."
+
+#~ msgid ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_public_after_init in order to prevent recursion."
+#~ msgstr ""
+#~ "This function should not be called more than once. Please hook your "
+#~ "actions to nice_plugin_public_after_init in order to prevent recursion."
+
+#~ msgid "Team Settings"
+#~ msgstr "Team Settings"
+
+#~ msgid ""
+#~ "If you would like to keep up to date regarding the Team plugin and other "
+#~ "plugins by NiceThemes, subscribe to the newsletter:"
+#~ msgstr ""
+#~ "If you would like to keep up to date regarding the Team plugin and other "
+#~ "plugins by NiceThemes, subscribe to the newsletter:"
+
+# Plugin name + author
+#~ msgid "Nice Team by NiceThemes"
+#~ msgstr "Nice Team by NiceThemes"
+
+#~ msgid "About Nice Team by NiceThemes"
+#~ msgstr "About Nice Team by NiceThemes"
+
+#~ msgid ""
+#~ "The number of members to be displayed in a team gallery. A value of 0 "
+#~ "(zero) means no team members will display. Use -1 (minus one) to display "
+#~ "unlimited team members."
+#~ msgstr ""
+#~ "The number of members to be displayed in a team gallery. A value of 0 "
+#~ "(zero) means no team members will display. Use -1 (minus one) to display "
+#~ "unlimited team members."
+
+#~ msgid "The number of columns to be displayed in a team gallery."
+#~ msgstr "The number of columns to be displayed in a team gallery."
+
+#~ msgid "Size of Image (in pixels)"
+#~ msgstr "Size of Image (in pixels)"
+
+#~ msgid "The size of your team member image."
+#~ msgstr "The size of your team member image."
+
+#~ msgid "Custom Fields"
+#~ msgstr "Custom Fields"
+
+#~ msgid "Team Member Name"
+#~ msgstr "Team Member Name"
+
+#~ msgid "Avatar"
+#~ msgstr "Avatar"
+
+#~ msgid ""
+#~ "Email address to show the team member's avatar from Gravatar (optional). "
+#~ "If not set, we'll use the featured image instead."
+#~ msgstr ""
+#~ "Email address to show the team member's avatar from Gravatar (optional). "
+#~ "If not set, we'll use the featured image instead."
+
+#~ msgid ""
+#~ "The name of the user associated to this team member. If present, the "
+#~ "avatar and bio will be retrieved from the user's profile."
+#~ msgstr ""
+#~ "The name of the user associated to this team member. If present, the "
+#~ "avatar and bio will be retrieved from the user's profile."
+
+#~ msgid "Number of Team to Show"
+#~ msgstr "Number of Team to Show"
+
+#~ msgid "Image Size (in pixels)"
+#~ msgstr "Image Size (in pixels)"
+
+#~ msgid "(NiceThemes) Team"
+#~ msgstr "(NiceThemes) Team"
+
+#~ msgid "A widget that displays the most recent team."
+#~ msgstr "A widget that displays the most recent team."
+
+#~ msgid "Post navigation"
+#~ msgstr "Post navigation"
+
+#~ msgid "<span class=\"meta-nav\">&larr;</span> Older team members"
+#~ msgstr "<span class=\"meta-nav\">&larr;</span> Older team members"
+
+#~ msgid "Newer team members <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "Newer team members <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid "Teams:"
+#~ msgstr "Teams:"
+
+#~ msgid "Archive"
+#~ msgstr "Archive"
